@@ -7,10 +7,10 @@ let myChart         = null;
 let items           = [];  // array of { type, berat, kadar, merek, denominasi }
 let itemIdCounter   = 0;
 
-const STL_PERHIASAN = 2271391;
-const STL_GALERI24  = 2400000;
-const STL_ANTAM     = 2271391;
-const STL_UBS       = 2271391;
+const STL_PERHIASAN = 2228684;
+const STL_GALERI24  = 2295545;
+const STL_ANTAM     = 2228684;
+const STL_UBS       = 2228684;
 
 const KADAR_OPTIONS = [
   {label:"24K (99%)",  val:24},
