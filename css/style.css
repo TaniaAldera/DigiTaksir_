@@ -30,6 +30,72 @@ html{scroll-behavior:smooth}
 body{font-family:var(--font);background:#f0f4f0;color:var(--gray-900);min-height:100vh;font-size:14px}
 
 /* HEADER */
+.header {
+  background: var(--p-green);
+  color: white;
+  padding: 20px 15px;
+  text-align: left;
+  border-bottom: 4px solid var(--p-gold);
+
+  /* tambahan layout flex dari cicil emas */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 50px;
+  width: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  width: fit-content;
+  margin: 0;
+}
+
+.logo-container img {
+  height: 30px;
+}
+
+/* CENTER TITLE */
+.header-title {
+  text-align: center;
+}
+
+.header-title h2 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.header-title span {
+  color: var(--p-gold);
+}
+
+.header-title p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #e0f2e9;
+}
+
+/* RIGHT SIDE */
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  justify-content: center;
+}
 .site-header{
   background:linear-gradient(135deg,var(--green-dark) 0%,var(--green) 60%,#00904A 100%);
   padding:0;position:sticky;top:0;z-index:100;
